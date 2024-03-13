@@ -1,0 +1,118 @@
+// Reset generado por ChatGPT
+// Reset básico
+// Adaptado de: https://github.com/hankchizljaw/modern-css-reset
+
+// Box-sizing
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+// Normalizar márgenes y rellenos
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+// Estilos básicos
+body {
+  font-family: "Bebas Neue", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+// Normalizar listas
+ol, ul {
+  list-style: none;
+}
+
+// Normalizar elementos en línea
+a {
+  text-decoration: none;
+}
+
+// Establecer estilos básicos para formularios
+input, button, textarea, select {
+  font: inherit;
+}
+
+// Eliminar bordes predeterminados en elementos de formulario
+button, input, select, textarea {
+  border: none;
+  outline: none;
+}
+
+// Eliminar estilos de lista en Safari
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+// Eliminar estilos de lista en Firefox
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+// Eliminar estilos de rango en Firefox
+input[type='range'] {
+  -webkit-appearance: none;
+}
+
+// Eliminar estilos de scrollbar
+::-webkit-scrollbar {
+  display: none;
+}
+
+// Eliminar espacios extra en elementos de bloque
+blockquote, dl, dd, figure, h1, h2, h3, h4, h5, h6, p, pre {
+  margin: 0;
+}
+
+// Eliminar márgenes verticales para elementos en línea con bordes
+abbr[title] {
+  border-bottom: none;
+}
+
+// Establecer bordes a cero
+button, input, select, textarea {
+  border: none;
+}
+
+// Establecer altura y ancho predeterminados en elementos de imagen y video
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+// Establecer relleno predeterminado en elementos de imagen y video
+img, video, canvas, audio, iframe, embed, object {
+  display: block;
+}
+
+// Restablecer altura y ancho en elementos de formulario
+input, select, textarea, button {
+  font: inherit;
+  margin: 0;
+}
+
+// Establecer relleno predeterminado en elementos de formulario
+input, select, textarea {
+  background-color: transparent;
+}
+
+// Establecer tamaño de fuente predeterminado en elementos de formulario
+input, select, textarea, button {
+  font-size: 100%;
+}
+
+// Eliminar el espacio entre el contenido de la tabla y los bordes de la tabla en IE
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
